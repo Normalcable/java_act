@@ -14,7 +14,7 @@ public class Task7 {
         return a * b;
     }
 
-    static int div(int a, int b) {
+    static double div(double a, double b) {
         return a / b;
     }
 
@@ -27,10 +27,10 @@ public class Task7 {
         System.out.println("Enter the second number");
         int b = scanner.nextInt();
 
-        System.out.println("the sum is" + add(a, b));
-        System.out.println("the difference is" + sub(a, b));
-        System.out.println("the product is" + mult(a, b));
-        System.out.println("the quotient is" + div(a, b));
+        System.out.println("the sum is " + add(a, b));
+        System.out.println("the difference is " + sub(a, b));
+        System.out.println("the product is " + mult(a, b));
+        System.out.println("the quotient is " + div(a, b));
 
     }
 }
